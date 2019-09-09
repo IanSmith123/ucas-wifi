@@ -1,7 +1,7 @@
 # UCAS-WIFI
 命令行登录UCAS wifi
 
-[![PyPI version](https://img.shields.io/pypi/v/ucas-wifi.svg)](https://github.com/IanSmith123/ucass-wifi) [![GitHub stars](https://img.shields.io/github/stars/IanSmith123/ucas-wifi.svg)](https://github.com/IanSmith123/ucas-wifi/stargazers) [![GitHub license](https://img.shields.io/github/license/IanSmith123/ucas-wifi.svg)](https://github.com/IanSmith123/ucas-wifi/blob/master/License)
+[![PyPI version](https://img.shields.io/pypi/v/ucas-wifi.svg)](https://github.com/IanSmith123/ucass-wifi) [![GitHub stars](https://img.shields.io/github/stars/IanSmith123/ucas-wifi.svg)](https://github.com/IanSmith123/ucas-wifi/stargazers) [![GitHub license](https://img.shields.io/github/license/IanSmith123/ucas-wifi)](https://github.com/IanSmith123/ucas-wifi/blob/master/License)
 
 # How to use
 
