@@ -168,7 +168,7 @@ def main():
             """.format('*' * 52, '*' * 52)
             print(output)
         else:
-            prompt("无法识别的指令 {}, 请运行 ucas help 查看帮助".format(args))
+            prompt("无法识别的指令 {}, 请运行 ucas-wifi help 查看帮助".format(args))
 
 
 if __name__ == '__main__':
