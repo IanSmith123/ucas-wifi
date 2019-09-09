@@ -154,10 +154,10 @@ def main():
             output = """
             {}
             
-            ucas          : login
-            ucas logout   : log out
-            ucas reset    : clear user info
-            ucas help     : print this message
+            ucas-wifi          : login
+            ucas-wifi logout   : log out
+            ucas-wifi reset    : clear user info
+            ucas-wiff help     : print this message
             
             
             Bug report URL: https://github.com/iansmith123/ucas-wifi
