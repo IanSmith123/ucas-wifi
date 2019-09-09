@@ -6,7 +6,7 @@
 # How to use
 
 ## 安装
-本程序依赖于python，且只在python3 on win10 测试通过，未测试其他环境。
+本程序依赖于python，且只在python3 on win10和python 3 on debian 9 测试通过，未测试其他环境。
 ```bash
 $ pip3 install ucas-wifi
 ```
@@ -51,6 +51,7 @@ $ pip3 install -U ucas-wifi -i https://pypi.org/simple
 
 # Changelog
 - 2019-9-9 13:34:00 适配UCAS无线网络完成，可以正常登陆和登出，支持显示剩余流量
+- 2019-9-9 20:25:56 使用`console_scripts`打包入口
 
 
 # Refer

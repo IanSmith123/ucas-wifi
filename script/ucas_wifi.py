@@ -157,7 +157,7 @@ def main():
             ucas-wifi          : login
             ucas-wifi logout   : log out
             ucas-wifi reset    : clear user info
-            ucas-wiff help     : print this message
+            ucas-wifi help     : print this message
             
             
             Bug report URL: https://github.com/iansmith123/ucas-wifi
