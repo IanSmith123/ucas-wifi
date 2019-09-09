@@ -50,8 +50,8 @@ def get_traffic():
     r.encoding = 'u8'
 
     max_flow = r.json().get('maxFlow')
-
-    prompt("剩余流量: {}".format(max_flow))
+    if max_flow:
+        prompt("剩余流量: {}".format(max_flow))
 
 
 def logout():

@@ -28,7 +28,7 @@ with open("README.md", 'r', encoding='utf8') as f:
 
 setuptools.setup(
     name="ucas-wifi",
-    version="0.0.1",
+    version="0.0.3",
     author="Les1ie",
     author_email="me@les1ie.com",
     description="login ucas wifi in terminal",
