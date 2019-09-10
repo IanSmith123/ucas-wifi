@@ -52,6 +52,8 @@ $ pip3 install -U ucas-wifi -i https://pypi.org/simple
 # Changelog
 - 2019-9-9 13:34:00 适配UCAS无线网络完成，可以正常登陆和登出，支持显示剩余流量
 - 2019-9-9 20:25:56 使用`console_scripts`打包入口
+- 2019-9-10 08:41:58 增加跳过检查联网步骤直接登录选项
+- 2019-9-10 08:42:21 增加`ucas-wifi info`选项，支持获取当前账户信息
 
 
 # Refer

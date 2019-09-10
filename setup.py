@@ -8,19 +8,8 @@ import os
 system = platform.system()
 
 
-def set_scripts():
-    return [
-        os.path.join("script", "ucas-wifi"),
-        os.path.join("script", "ucas-wifi.bat"),
-        os.path.join("script", "ucas-wifi.py"),
-    ]
-
-
 def set_require():
-    if system == "Windows" and platform.release() == 10:
-        return ['win10toast', 'requests']
-    else:
-        return ['requests']
+    return ['requests']
 
 
 with open("README.md", 'r', encoding='utf8') as f:
@@ -28,7 +17,7 @@ with open("README.md", 'r', encoding='utf8') as f:
 
 setuptools.setup(
     name="ucas-wifi",
-    version="1.0.0",
+    version="1.0.1",
     author="Les1ie",
     author_email="me@les1ie.com",
     description="login ucas wifi in terminal",
