@@ -1,7 +1,7 @@
 # UCAS-WIFI
 命令行登录UCAS wifi
 
-[![PyPI version](https://img.shields.io/pypi/v/ucas-wifi.svg)](https://github.com/IanSmith123/ucass-wifi) [![GitHub stars](https://img.shields.io/github/stars/IanSmith123/ucas-wifi.svg)](https://github.com/IanSmith123/ucas-wifi/stargazers) [![GitHub license](https://img.shields.io/github/license/IanSmith123/ucas-wifi)](https://github.com/IanSmith123/ucas-wifi/blob/master/License)
+[![PyPI version](https://img.shields.io/pypi/v/ucas-wifi.svg)](https://github.com/IanSmith123/ucas-wifi) [![GitHub stars](https://img.shields.io/github/stars/IanSmith123/ucas-wifi.svg)](https://github.com/IanSmith123/ucas-wifi/stargazers) [![GitHub license](https://img.shields.io/github/license/IanSmith123/ucas-wifi)](https://github.com/IanSmith123/ucas-wifi/blob/master/License)
 
 # How to use
 
@@ -44,7 +44,6 @@ $ pip3 install -U ucas-wifi -i https://pypi.org/simple
 
 # Hint
 - 账户信息保存在`~/.ucas-wifi.json`
-- win10将会使用toast提示命令执行情况，如果不需要该提示框, 重设用户信息的时候选择`n`即可
 
 # Todo
 - [ ] 使用bash/ash完成认证过程，适配openwrt
@@ -54,6 +53,11 @@ $ pip3 install -U ucas-wifi -i https://pypi.org/simple
 - 2019-9-9 20:25:56 使用`console_scripts`打包入口
 - 2019-9-10 08:41:58 增加跳过检查联网步骤直接登录选项
 - 2019-9-10 08:42:21 增加`ucas-wifi info`选项，支持获取当前账户信息
+- 2019-9-13 01:13:54  README中添加bug说明， info获取的流量可能不实时
+
+# Bug
+
+- `ucas-wifi info`使用的API可能存在一定的延迟，流量信息可能不准确 （暂不打算修复）
 
 
 # Refer
