@@ -51,12 +51,37 @@ $ ucas-wifi help
 $ pip3 install -U ucas-wifi -i https://pypi.org/simple
 ```
 
+# bash脚本
+## 下载
+1. 下载[login_ucas.sh](https://github.com/IanSmith123/ucas-wifi/raw/master/login_ucas.sh)，
+
+2. `chmod +x login_ucas.sh`
+
+3. 修改脚本内的学号和密码。
+
+## 使用方法
+
+- 登录
+
+```bash
+./login_ucas.sh
+```
+
+- 登出
+
+```bash
+./login_ucas.sh logout
+```
+在debian 9和 busybox 1.29.3 上测试通过
+    
+
 # Hint
+
 - 账户信息保存在`~/.ucas-wifi.json`
 - 程序检查联网是通过访问  `http://detectportal.firefox.com/success.txt` 获取返回网页内容来判断是否可以联网的，这个网址可以使用IPV6访问，因此如果获取到了IPV6地址即可认为已经可以联网了，如果仍旧想要登录账号，请使用 `ucas-wifi direct `命令
 
 # Todo
-- [ ] 使用bash/ash完成认证过程，适配openwrt （代码早就写完了只是懒得更新 :)
+- [x] 使用bash/ash完成认证过程
 
 # Changelog
 - 2019-9-9 13:34:00 适配UCAS无线网络完成，可以正常登陆和登出，支持显示剩余流量
@@ -65,6 +90,7 @@ $ pip3 install -U ucas-wifi -i https://pypi.org/simple
 - 2019-9-10 08:42:21 增加`ucas-wifi info`选项，支持获取当前账户信息
 - 2019-9-13 01:13:54  README中添加bug说明， info获取的流量可能不实时
 - 2019-11-11 20:02:51 README中添加 `ucas-wifi direct`和`ucas-wifi info`命令的说明
+- 2019-11-15 15:20:47 添加了使用bash脚本登录的功能
 
 # Bug
 
