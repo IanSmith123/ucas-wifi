@@ -1,3 +1,6 @@
+# WARNING
+UCAS 已经从锐捷更换到深澜认证系统，而 Github 上已有很多可用的深澜登录程序，故本项目不再维护。
+
 # UCAS-WIFI
 命令行登录UCAS wifi 。
 
